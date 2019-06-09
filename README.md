@@ -3,7 +3,6 @@
 Text based wave maze
 
 </br>
-</br>
 
 ## Usage:
 
