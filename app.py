@@ -9,7 +9,6 @@ from lib import audio
 
 print("\n" * 1000)
 
-
 def init_audio(conf_path, session_path, sample_path="", track_name="untitled", debug=False):
     if sample_path == "":
         input("Enter sample path: ")

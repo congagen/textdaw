@@ -5,7 +5,6 @@ import websocket
 conf_path = ""
 session_path = ""
 
-
 def update_data(conf_path, response_data, merge_key=""):
     print(conf_path)
     print(merge_key)

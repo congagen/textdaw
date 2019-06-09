@@ -11,7 +11,6 @@ class Cli(object):
     def __init__(self):
         pass
 
-
     def c_input(self, json_path, merge_key="cli_seeds", prompt="\nEnter text: "):
         while 1:
             i = input(prompt)

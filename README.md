@@ -9,3 +9,4 @@ Text based wave maze
 ```sh
 $ python3 app.py 
 ```
+

@@ -1,7 +1,6 @@
 import os
 import json
 
-
 def any_to_num(input_str, fallback_num_s):
     num_s = ""
     num_n = 0
