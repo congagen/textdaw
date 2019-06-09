@@ -95,11 +95,11 @@ class Daw():
         random.seed(self.composite_seed_s)
 
 
-    def text_to_sequence(self, input_text, item_list, seq_length, clean=False, reverse=True, position_seed=1):
+    def text_to_sequence(self, input_text, item_list, seq_length, filer_input=False, reverse=True, position_seed=1):
 
         i_txt = input_text
 
-        if clean:
+        if filer_input:
             i_txt = "".join([i if i.lower() in self.seed_chars else "" for i in i_txt])
 
         if reverse:
@@ -120,7 +120,7 @@ class Daw():
         if self.debug:
             print("\n")
             print("Raw seed:   " + input_text)
-            print("Clean seed: " + i_txt)
+            print("Filter seed: " + i_txt)
             print("\n")
 
         return seq
