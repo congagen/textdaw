@@ -53,7 +53,7 @@ def init_session(session_name, init_conf):
 
 if __name__ == '__main__':
     threads = []
-    init_samples = True
+    init_samples = False
     init_conf = {"bpm": "120", "pattern_length": "8", "loop_count": "4"}
 
     session = init_session("demo", init_conf)
