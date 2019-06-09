@@ -1,0 +1,10 @@
+{
+    "ws": {
+        "url": "",
+        "header": {}
+    },
+
+    "bpm": "240",
+    "loop_count": "0",
+    "pattern_length": "4"
+}
