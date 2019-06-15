@@ -53,7 +53,7 @@ def init_session(session_name, init_conf):
 
 if __name__ == '__main__':
     threads = []
-    init_samples = False
+    init_samples = True
     init_conf = {"bpm": "120", "pattern_length": "8", "loop_count": "4"}
 
     session = init_session("demo", init_conf)
@@ -65,8 +65,8 @@ if __name__ == '__main__':
 
     if init_samples:
         audio_gens.sfx(
-            "data/samples/misc", s_count=100, s_duration=0.4,
-            base_freq=10, freq_interval=100, fx=5.98765431)
+            "data/samples/misc", s_count=100, s_duration=0.3, note_freq=25,
+            mod_freq=55, freq_interval=30, fx=3.123456)
 
     for a in sample_folders:
         threads.append(
