@@ -63,10 +63,10 @@ if __name__ == '__main__':
     audio_gens = audio.Generators()
     sample_folders = ["data/samples/misc"]
 
-    if init_samples:
-        audio_gens.sfx(
-            "data/samples/misc", s_count=100, s_duration=0.3, note_freq=25,
-            mod_freq=55, freq_interval=30, fx=3.123456)
+    #if init_samples:
+    audio_gens.sfx(
+        "data/samples/misc", s_count=100, s_duration=0.1, note_freq=25,
+        mod_freq=55, freq_interval=30, fx=3.123456)
 
     for a in sample_folders:
         threads.append(
