@@ -1,9 +1,6 @@
 # Textdaw
-
 💬 ⇨ 🎼
-
 </br>
-
 ## Usage:
 
 ```sh
