@@ -1,6 +1,6 @@
 # Textdaw
 
-Text based wave maze
+💬 ⇨ 🎼
 
 </br>
 
