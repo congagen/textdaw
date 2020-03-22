@@ -1,8 +1,8 @@
-# Textdaw
-💬 ⇨ 🎼
-</br>
-## Usage:
+# textdaw | 💬⇨ 🎼
 
+</br>
+
+### Usage:
 ```sh
 $ python3 app.py 
 ```
